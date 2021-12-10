@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: doofenshmirtzEvilIncModule
   title: Doofenshmirtz Evil Inc.
-  author: eXish
+  author: eXish, Blananas2
   description: 'These jingles are just too good to not have their own module. Also
     Dr. Doof is just hilarious in general. All credits to Disney for their amazing
     work on Phineas and Ferb!
@@ -26,9 +26,13 @@ MonoBehaviour:
 
     Doofenshmirtz Evil Inc. (doofenshmirtzEvilIncModule) v1.0.0
 
-    Module and Concept by eXish
+    Idea by eXish & Blananas2
+
+    Manual by eXish & Blananas2
+
+    Implemented by eXish
 
     Twitch Plays supported'
   version: 1.0.0
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: c0b2ae231f11b024fafeeeb9603aa510, type: 3}
+  previewImage: {fileID: 2800000, guid: 4ffbd58f3a8cc79408fab1820201b0fa, type: 3}
