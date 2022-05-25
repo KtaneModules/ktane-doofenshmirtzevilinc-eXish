@@ -289,7 +289,19 @@ public class DoofenshmirtzEvilIncScript : MonoBehaviour {
         if (countdown != null && currentjingle != correctjingle)
             buttons[2].OnInteractEnded();
         if (countdown == null)
-            yield return ProcessTwitchCommand("submit " + (correctjingle + 1));
+        {
+            if ((currentjingle == 2 && correctjingle == 0) || (currentjingle == 0 && correctjingle == 1) || (currentjingle == 1 && correctjingle == 2))
+            {
+                buttons[1].OnInteract();
+                yield return new WaitForSeconds(0.1f);
+            }
+            else if ((currentjingle == 2 && correctjingle == 1) || (currentjingle == 1 && correctjingle == 0) || (currentjingle == 0 && correctjingle == 2))
+            {
+                buttons[0].OnInteract();
+                yield return new WaitForSeconds(0.1f);
+            }
+            buttons[2].OnInteract();
+        }
         while (!moduleSolved) { yield return true; }
     }
 }
