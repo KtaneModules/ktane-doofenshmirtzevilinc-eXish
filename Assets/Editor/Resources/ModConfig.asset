@@ -24,7 +24,7 @@ MonoBehaviour:
     PDF: https://ktane.timwi.de/PDF/Doofenshmirtz%20Evil%20Inc..pdf
 
 
-    Doofenshmirtz Evil Inc. (doofenshmirtzEvilIncModule) v1.0.1
+    Doofenshmirtz Evil Inc. (doofenshmirtzEvilIncModule) v1.0.2
 
     Idea by eXish & Blananas2
 
@@ -33,6 +33,6 @@ MonoBehaviour:
     Implemented by eXish
 
     Twitch Plays supported'
-  version: 1.0.1
+  version: 1.0.2
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 4ffbd58f3a8cc79408fab1820201b0fa, type: 3}
